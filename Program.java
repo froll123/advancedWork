@@ -10,7 +10,6 @@ public class Program {
 
             System.out.println("Введите данные (Фамилия Имя Отчество номертелефона):");
             String input = scanner.nextLine();
-
             String[] data = input.split(" ");
             if (data.length != 4) {
                 throw new IllegalArgumentException("Количество данных не соответствует требованиям");
